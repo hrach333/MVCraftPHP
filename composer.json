@@ -1,0 +1,19 @@
+{
+    "name": "hrach/mvcraftphp",
+    "description": "Лёгкий и гибкий PHP-фреймворк на архитектуре MVC.",
+    "require": {
+        "php": "^8.0"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hrach Khalafyan",
+            "email": "hrach@hrach.ru"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
